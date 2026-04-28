@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  line-height: 1.5;
+   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+
+:root{
+  /* Backgrounds */
+  --bg: #ffffff;
+
+  /* Text */
+  --text: #18181B;        /* main text */
+  --text-muted: #52525B;  /* nav text */
+  --text-footer: #71717A;
+
+  /* Primary */
+  --primary: #3B82F6;
+
+  /* Button */
+  --btn-bg: #3B82F6;
+  --btn-text: #ffffff;
+
+  /* Nav */
+  --nav-hover: #E4E4E7;
+  --nav-active: #3B82F6;
+
+  /* Borders / subtle */
+  --border: #E4E4E7;
+}
+
+body.dark {
+  /* Backgrounds */
+  --bg: #09090B; /* slightly softer than pure black */
+
+  /* Text */
+  --text: #D4D4D8;
+  --text-muted: #A1A1AA;
+  --text-footer: #A1A1AA;
+
+  /* Primary */
+  --primary: #3B82F6;
+
+  /* Button */
+  --btn-bg: #3B82F6;
+  --btn-text: #ffffff;
+
+  /* Nav */
+  --nav-hover: #27272A;
+  --nav-active: #3B82F6;
+
+  /* Borders */
+  --border: #27272A;
+}
+
