@@ -68,13 +68,14 @@ button{
   padding: 0.6rem 1.4rem;
   border-radius: 8px;
   font-weight: 600;
-  transition: 0.2s;
+  transition: transform 0.2s;
 }
 
-button:hover{
+button:hover, .profile-btn:hover{
   opacity: 0.9;
   transform: translateY(-1px);
 }
+
 
 strong {
   color: var(--text);
@@ -126,6 +127,53 @@ p {
   margin: 2.5rem 0 1rem 0;
 
 }
+
+.profile-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  text-decoration: none;
+  padding: 1.6rem 5rem;
+  border-radius: .8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 4rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-btn:hover{
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.about-me-title{
+  font-size: 4.8rem;
+  color: var(--text);
+  margin-bottom: 2rem;
+} 
+
+.lead-text{
+  font-size: 2.4rem;
+  color: var(--text-muted);
+  margin: 3rem 0;
+}
+
+.sub-text{
+  font-size: 1.8rem;
+  color: var(--text);
+  margin: 2rem 0;
+  text-align: justify;
+}
+
+.mail-link{
+  text-decoration: none;
+  color: var(--primary);
+}
+
 
 hr {
   border: none;               
