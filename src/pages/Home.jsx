@@ -13,12 +13,19 @@ export default function Home() {
           using Node.js, React, and modern backend technologies.
         </p> */}
 
-        <p className="profile-text">I’m a Full-Stack JavaScript Developer with a background in Banking IT and Core Banking Systems. I build web applications using Node.js and React while leveraging my experience in financial systems and database-driven environments.</p>
+        <p className="profile-text">
+          I’m a Full-Stack JavaScript Developer with a background in Banking IT
+          and Core Banking Systems. I build web applications using Node.js and
+          React while leveraging my experience in financial systems and
+          database-driven environments.
+        </p>
 
         <Link to="/about" className="profile-btn">
           More About Me
           <FaLongArrowAltRight size={24} />{" "}
         </Link>
+
+       
       </div>
     </>
   );

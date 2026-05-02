@@ -7,9 +7,9 @@ export default function Footer(){
       <hr />
       
         <div className="action-links">
-        <a href="#"><FiGithub/></a>
-        <a href="#"><FiMail/></a>
-        <a href="#"><FiLinkedin/></a>
+        <a href="https://github.com/Mohiuuddin" target="_blank" rel="noopener noreferrer"><FiGithub/></a>
+        <a href="mailto:mohiuddin4296@gmail.com" rel="noopener noreferrer"><FiMail/></a>
+        <a href="https://www.linkedin.com/in/mohiuddin777/" target="_blank" rel="noopener noreferrer"><FiLinkedin/></a>
       </div>
       <div className="footer-text">
         <div>© {year}</div>
