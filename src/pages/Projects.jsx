@@ -55,10 +55,10 @@ export default function Projects(){
    
    
     <div className="project-grid-item">
-      <img className="project-img" src="/public/project-images/weather app.png" alt="The Clubhouse" />
+      <img className="project-img" src="/public/project-images/clubhouse.png" alt="The Clubhouse" />
       <div className="project-details">
-        <h2 className="project-name">The Clubhouse</h2>
-        <p className="project-desc">The Clubhouse is a full-stack web application where users can write anonymous posts. However, only "Members" who know the secret passcode can see the authors and timestamps of the messages. "Admins" have the additional power to delete any post.</p>
+        <h2 className="project-name">Members Only</h2>
+        <p className="project-desc">The Clubhouse(Members Only) is a full-stack web application where users can write anonymous posts. However, only "Members" who know the secret passcode can see the authors and timestamps of the messages. "Admins" have the additional power to delete any post.</p>
         <ul>
           <li>HTML5 & CSS3</li>
           <li>Node.js</li>
