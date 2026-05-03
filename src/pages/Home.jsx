@@ -3,7 +3,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 export default function Home() {
   return (
     <>
-      <div className="main-content home">
+      <div className="main-content home container">
         <img className="profile-img" src="mohiuddin.jpg" alt="Md. Mohi Uddin" />
         <h2 className="greetings">Hello, I'm</h2>
         <h1 className="profile-title">Md. Mohi Uddin</h1>

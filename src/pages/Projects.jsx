@@ -4,7 +4,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 export default function Projects(){
   return(
     <>
-    <div className="main-content">
+    <div className="main-content container">
     <h1 className="poject-title">Projects</h1>
     <hr/>
 
@@ -55,7 +55,7 @@ export default function Projects(){
    
    
     <div className="project-grid-item">
-      <img className="project-img" src="/public/project-images/clubhouse.png" alt="The Clubhouse" />
+      <img className="project-img" src="/project-images/clubhouse.png" alt="The Clubhouse" />
       <div className="project-details">
         <h2 className="project-name">Members Only</h2>
         <p className="project-desc">The Clubhouse(Members Only) is a full-stack web application where users can write anonymous posts. However, only "Members" who know the secret passcode can see the authors and timestamps of the messages. "Admins" have the additional power to delete any post.</p>

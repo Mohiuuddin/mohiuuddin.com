@@ -3,9 +3,8 @@ import { FiGithub, FiMail, FiLinkedin } from "react-icons/fi";
 export default function Footer(){
   const year = new Date().getFullYear();
   return(
-    <footer className="footer-content">
+    <footer className="footer-content container">
       <hr />
-      
         <div className="action-links">
         <a href="https://github.com/Mohiuuddin" target="_blank" rel="noopener noreferrer"><FiGithub/></a>
         <a href="mailto:mohiuddin4296@gmail.com" rel="noopener noreferrer"><FiMail/></a>

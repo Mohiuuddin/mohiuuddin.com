@@ -4,9 +4,15 @@
   transition: background 0.25s ease, color 0.25s ease;
 }
 
+.container {
+  max-width:1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
 .nav-bar{
   padding: 3.2rem 0 6.4rem;
-  margin: 0 31rem;
+  /* margin: 0 31rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,6 +42,27 @@
 .nav-item.active{
   color: var(--nav-active);
 }
+
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-toggle svg {
+  width: 3rem;
+  height: 3rem;
+  color: var(--text);
+}
+
 
 .theme-toggle {
   background: transparent;
@@ -88,7 +115,7 @@ p {
 
 
 .main-content{
-  margin: 0 31rem 3.2rem;
+  /* margin: 0 31rem 3.2rem; */
   padding: 4.8rem 0 0;
 
 }
@@ -141,6 +168,7 @@ p {
   font-size: 1.8rem;
   font-weight: 600;
   margin-top: 4rem;
+  margin-bottom: 3rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -298,7 +326,7 @@ hr {
   align-items: center;
   gap: 1.5rem;
   padding: 2rem 0 6.4rem 0;
-  margin: 0 31rem 3.2rem 31rem;      
+  /* margin: 0 31rem 3.2rem 31rem;       */
 }
 
 .action-links {
@@ -338,6 +366,188 @@ hr {
   text-decoration: none;
   color: var(--text-footer);
 }
+
+
+
+@media (max-width: 1024px) {
+
+  .container{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .project-grid {
+    grid-template-columns: 1fr; 
+  } 
+
+  .profile-title {
+    font-size: 4.8rem;
+  }
+
+  .greetings {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .nav-bar {
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+ 
+  .nav-links {
+    position: absolute;
+    top: 65%; 
+    right: 2rem;
+
+    width: 220px;
+
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 1rem;
+
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+
+    padding: 1.5rem;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+
+    z-index: 1000;
+
+    
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.25s ease;
+  }
+
+
+  .nav-links.active {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .nav-links .nav-item {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    text-align: left;
+    border-radius: 6px;
+  }
+
+  .nav-links .nav-item:hover {
+    background: var(--nav-hover);
+  }
+}
+
+@media (max-width: 500px) {
+
+  .container {
+    padding: 2rem 1.5rem;
+  }
+
+  /* .nav-bar {
+    padding: 2rem  3rem;
+  } */
+
+ 
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profile-title {
+    font-size: 3rem;
+  }
+
+  .greetings {
+    font-size: 2.4rem;
+  }
+
+  .profile-text {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    margin: 2rem 0 1rem;
+  }
+
+  
+  .profile-btn,
+  .project-btn {
+    padding: 1.2rem 2.5rem;
+    font-size: 1.5rem;
+  }
+
+ 
+  .about-me-title,
+  .poject-title,
+  .resume-title {
+    font-size: 2.8rem;
+  }
+
+  .lead-text {
+    font-size: 1.8rem;
+  }
+
+  .sub-text {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+ 
+  .skill-title {
+    font-size: 2rem;
+  }
+
+  .skill-sub-title {
+    font-size: 1.8rem;
+  }
+
+  .skill-list > li {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+  }
+
+  
+  .project-name {
+    font-size: 2rem;
+  }
+
+  .project-desc {
+    font-size: 1.4rem;
+  }
+
+  .project-details {
+    padding: 1.2rem;
+  }
+
+  .project-img {
+    border-width: 0.6rem;
+  }
+
+  
+  .action-links svg {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .footer-text {
+    font-size: 1.2rem;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+}
+
+
+
 
 
 
