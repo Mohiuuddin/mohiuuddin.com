@@ -45,7 +45,7 @@ A professional portfolio showcasing my transition from Banking IT & Core Banking
 To run this project locally:
 
 1. **Clone the repository:**
-   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
+   git clone [https://github.com/Mohiuuddin/mohiuuddin.com]
 
 2. **Install dependencies:**
    npm install
