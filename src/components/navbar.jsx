@@ -11,7 +11,8 @@ export default function Navbar({dark, setDark}){
       <NavLink to="/" className="nav-item" onClick={() => setOpen(false)}>Home</NavLink>
       <NavLink to="about" className="nav-item" onClick={() => setOpen(false)}>About</NavLink>
       <NavLink to="projects" className="nav-item" onClick={() => setOpen(false)}>Projects</NavLink>
-      <NavLink to="resume" className="nav-item" onClick={() => setOpen(false)}>Resume</NavLink>
+      {/* <NavLink to="resume" className="nav-item" onClick={() => setOpen(false)}>Resume</NavLink> */} 
+      <a href="/Md Mohi Uddin - Resume.pdf" target="_blank" rel="noopener noreferrer" className="nav-item" onClick={() => setOpen(false)}>Resume</a>
       
       </div>
       <div className="nav-actions">

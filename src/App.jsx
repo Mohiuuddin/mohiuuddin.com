@@ -4,7 +4,6 @@ import './App.css'
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import Resume from './pages/Resume';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
 import { ErrorPage } from './components/error';
@@ -39,7 +38,6 @@ const router = createBrowserRouter([
       {index: true, element: <Home/>},
       {path: "about", element: <About/>},
       {path: "projects", element: <Projects/>},
-      {path: "resume", element: <Resume/> }
     ]
   }
 ], 

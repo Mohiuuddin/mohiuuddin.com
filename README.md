@@ -1,16 +1,63 @@
-# React + Vite
+Personal Portfolio | Md. Mohi Uddin
+A professional portfolio showcasing my transition from Banking IT & Core Banking Systems to Full-Stack JavaScript Development. This site highlights my technical journey, featured projects, and my professional background in financial systems.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo
+[https://mohiuuddin-com.vercel.app/]
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
+Built With:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Frontend:** React.js, HTML5, CSS3
+* **Deployment:** Vercel
 
-## React Compiler
+Core Technical Knowledge Featured:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend:** JavaScript (ES6+), React.js, Webpack
 
-## Expanding the ESLint configuration
+* **Backend:** Node.js, Express.js, REST APIs, JWT & Passport.js Authentication
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Databases:** PostgreSQL, Oracle Database, Prisma ORM
+
+* **Tools:** Git, GitHub, Postman, Multer 
+
+📂 Key Projects
+
+| Project | Description | Tech Highlights |
+| :--- | :--- | :--- |
+| **Blog API** | A three-tier platform with a decoupled architecture (API, Admin, Client). | React, Node.js, PostgreSQL, Prisma, JWT |
+| **CloudVault** | An on-premise file management system with session-based security. | Node.js, Express, Multer, Passport.js |
+| **Members Only** | A clubhouse app featuring anonymous posts and secret access levels. | Node.js, Express, PostgreSQL, Bcrypt |
+| **Shopping Cart** | "Toddler’s Outfits" e-commerce SPA with complex state management. | React, React Router, Bangladesh Regional Shipping Logic |
+| **TaskFlow** | A modular task manager built using OOP principles and Webpack. | Vanilla JS, Webpack, LocalStorage |
+
+
+📝 Features
+
+* **Responsive Design:** Fully optimized for mobile, tablet, and desktop views.
+
+* **Project Gallery:** Showcasing full-stack applications with live and source code links.
+
+* **Integrated Resume:** Direct access to my professional CV via a PDF viewer. 
+
+⚙️ Local Development
+
+To run this project locally:
+
+1. **Clone the repository:**
+   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
+
+2. **Install dependencies:**
+   npm install
+
+3. **Start the development server:**
+   npm start
+
+
+© 2026 Md. Mohi Uddin. All Rights Reserved.
+
+
+
+
+
+
+
