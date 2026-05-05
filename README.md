@@ -1,16 +1,16 @@
-Personal Portfolio | Md. Mohi Uddin
+**Personal Portfolio | Md. Mohi Uddin**
 A professional portfolio showcasing my transition from Banking IT & Core Banking Systems to Full-Stack JavaScript Development. This site highlights my technical journey, featured projects, and my professional background in financial systems.
 
-🚀 Live Demo
+**🚀 Live Demo**
 [https://mohiuuddin-com.vercel.app/]
 
-🛠️ Tech Stack
-Built With:
+**🛠️ Tech Stack**
+**Built With:**
 
 * **Frontend:** React.js, HTML5, CSS3
 * **Deployment:** Vercel
 
-Core Technical Knowledge Featured:
+**Core Technical Knowledge Featured:**
 
 * **Frontend:** JavaScript (ES6+), React.js, Webpack
 
@@ -20,7 +20,7 @@ Core Technical Knowledge Featured:
 
 * **Tools:** Git, GitHub, Postman, Multer 
 
-📂 Key Projects
+**📂 Key Projects**
 
 | Project | Description | Tech Highlights |
 | :--- | :--- | :--- |
@@ -31,7 +31,7 @@ Core Technical Knowledge Featured:
 | **TaskFlow** | A modular task manager built using OOP principles and Webpack. | Vanilla JS, Webpack, LocalStorage |
 
 
-📝 Features
+**📝 Features**
 
 * **Responsive Design:** Fully optimized for mobile, tablet, and desktop views.
 
@@ -39,7 +39,7 @@ Core Technical Knowledge Featured:
 
 * **Integrated Resume:** Direct access to my professional CV via a PDF viewer. 
 
-⚙️ Local Development
+**⚙️ Local Development**
 
 To run this project locally:
 
