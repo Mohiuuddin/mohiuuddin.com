@@ -12,7 +12,7 @@ export default function Projects() {
           <div className="project-grid-item">
             <img
               className="project-img"
-              src="/public/project-images/LoanWise AI.png"
+              src="/project-images/LoanWise AI.png"
               alt="LoanWise AI "
             />
             <div className="project-details">
@@ -65,7 +65,7 @@ export default function Projects() {
           <div className="project-grid-item">
             <img
               className="project-img"
-              src="/public/project-images/AML Monitoring Platform.png"
+              src="/project-images/AML Monitoring Platform.png"
               alt="AML Monitoring Platform"
             />
             <div className="project-details">
